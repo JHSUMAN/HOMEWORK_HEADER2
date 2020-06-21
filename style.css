@@ -1,0 +1,114 @@
+    body{
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+    /* header start here */
+    header{
+           background-color: #131C2B;
+           width: 100%;
+
+    }
+    .wrapper{
+           overflow: hidden;
+           width: 80%;
+           margin: 0 auto;
+           padding-top: 7px;
+    }
+    .logo{
+          width: 15%;
+          float: left;
+          margin-top: 7px;
+    }
+    .logo img{
+          width: 100%;
+        }
+    .manu{
+         width: 70%;
+         float: right;
+          margin-top: 30px;
+    }
+    .manu ul{
+         list-style: none;
+         float: right;
+
+    }
+    .manu ul li{
+      display: inline-block;
+
+    }
+    .manu ul li a{
+         text-decoration: none;
+         color: white;
+         padding: 0 20px;
+         font-weight: normal;
+         font-family: 'Source Sans Pro', sans-serif;
+         transition: .3s;
+         font-size: 17px;
+    }
+    .manu ul li a:hover{
+         color:#03659F;
+    }
+section{
+        background-image: url(image/cover.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 87vh;
+}
+.contant{
+       width: 50%;
+       float: left;
+       padding-top: 180px;
+}
+.contant h1{
+       font-size:35px;
+       font-weight: 400;
+       color: white;
+}
+.contant h2{
+       font-size: 40px;
+       font-weight: 600;
+       color:#0779B8;
+       margin-bottom: -15px;
+       margin-top: -22px;
+
+  }
+  .contant p{
+      color: white;
+      padding: 8px 0px;
+      line-height: 25px;
+  }
+  button{
+      padding: 10px 25px;
+      font-size: 25px;
+      font-weight: 500;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      cursor: pointer;
+      transition: .5s;
+
+  }
+  button:hover{
+      color: #0779B8;
+  }
+  button i{
+      font-size: 20px;
+      margin-left: 10px;
+      background-color:#0779B8;
+      color:#0779B8;
+      background: none;
+      cursor: pointer;
+  }
+
+@media screen and (max-width:550px) {
+         .logo{
+          width: 30%;
+         }
+         .manu ul li{
+           display: block;
+           margin: 15px 0;
+         }
+
+}
